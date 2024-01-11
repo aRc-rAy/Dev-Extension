@@ -1,0 +1,10 @@
+{
+	"name": "DEV-MODE",
+	"version": "1.0.0",
+	"description": "This is a chrome extension for landing page of new tab in web browser.",
+	"manifest_version": 3,
+	"author": "Dilip Kumar",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
+}
