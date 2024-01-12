@@ -12,7 +12,10 @@ nam.addEventListener("click", async function () {
 });
 
 button.addEventListener("click", function () {
-	const res = input.value;
+	let res = input.value;
+	if (!res) {
+		res = "~Dev";
+	}
 	nam.innerText = res;
 	localStorage.setItem("myTextName", nam.innerText);
 	modal.style.display = "none";
