@@ -46,3 +46,42 @@ img {
 .tag {
 	font-size: 4rem;
 }
+/* ->>>>>>>>>>>>>>>>>>>>>>>>> Set Your Name Field <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.text-box {
+	position: absolute;
+	top: 10vh;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	color: red;
+	background: rgb(82, 82, 82);
+	background: linear-gradient(
+		90deg,
+		rgba(82, 82, 82, 1) 0%,
+		rgba(205, 202, 202, 1) 17%,
+		rgba(221, 221, 221, 1) 71%,
+		rgba(69, 69, 69, 1) 100%
+	);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 1rem;
+	border-radius: 8px;
+}
+.inner-text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#close-button {
+	margin: 0.2rem;
+}
+#text-input {
+	color: rgb(53, 53, 53);
+	font-size: 2rem;
+	font-family: "Roboto", sans-serif;
+	font-family: "Roboto Mono", monospace;
+}
