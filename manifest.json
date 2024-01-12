@@ -6,5 +6,11 @@
 	"author": "Dilip Kumar",
 	"chrome_url_overrides": {
 		"newtab": "index.html"
+	},
+	"icons": {
+		"16": "utils/images/code.png",
+		"32": "utils/images/code.png",
+		"48": "utils/images/code.png",
+		"128": "utils/images/code.png"
 	}
 }
